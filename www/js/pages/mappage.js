@@ -4,8 +4,12 @@
   initialize: function () {
     console.log("MapPage.initialize");
 
-    // refresh iframe
-    $('#iframe-map').attr('src', Constants.URL_SMELLPGH+"/visualization?user_hash="+LocalStorage.get("user_hash") );
+    Location.requestLocation(function(lat,lng) {
+      // refresh iframe
+      $('#iframe-map').attr('src', Constants.URL_SMELLPGH+"/visualization?user_hash="
+        +LocalStorage.get("user_hash")+"&loc="+lat+","+lng );
+        console.log("lat,lng: " + lat + "," + lng);
+    });
 
     // first-time modal
     if (LocalStorage.get("firsttime_map")) {

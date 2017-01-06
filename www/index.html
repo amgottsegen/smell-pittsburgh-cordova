@@ -44,8 +44,8 @@
         <ul>
           <li>Rate the odor on a scale of 1-5</li>
           <li>Describe the smell, source of odor and any symptoms (recommended)</li>
-          <li>Write a personal note to the health department (optional)</li>
-          <li>Endorse your report to ACHD - see Settings (recommended)</li>
+          <li>Write any additional comments (optional)</li>
+          <li>Submit your contact information with your report - see Settings (recommended)</li>
         </ul>
         <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="back">OK</a>
       </div>
@@ -60,7 +60,7 @@
     </div>
     <!-- header -->
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
-      <h1>Smell PGH</h1>
+      <h1>Air Watch: Bay Area</h1>
       <a href="#home-panel" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">Settings</a>
     </div>
     <!-- main -->
@@ -84,12 +84,12 @@
         <input type="text" name="textfield_feelings_symptoms" id="textfield_feelings_symptoms" value="" placeholder="" data-clear-btn="true" />
       </div>
       <div class="homepage-section">
-        <label for="textfield_additional_comments">Add a personal note to the Health Department</label>
+        <label for="textfield_additional_comments">Additional comments: </label>
         <textarea type="text" name="textfield_additional_comments" id="textfield_additional_comments" value="" data-clear-btn="true"></textarea>
       </div>
       <br/>
       <div class="submission-disclaimer">
-        All smell reports within Alleghency County will be forwarded to the Allegheny County Health Department (ACHD). If you'd like to receive correspondence from ACHD, please enter your contact info in the settings tab.
+        <!--All smell reports within Alleghency County will be forwarded to the Allegheny County Health Department (ACHD). If you'd like to receive correspondence from ACHD, please enter your contact info in the settings tab.-->
       </div>
       <button type="button" id="button_submit_report" disabled>Send Smell Report</button>
     </div>
@@ -114,7 +114,7 @@
       </div>
       <div role="main" class="ui-content">
         <ul>
-          <li>This map shows smell reports from all across Pittsburgh</li>
+          <li>This map shows smell reports from all across the bay area</li>
           <li>We offset smell report locations to protect your privacy</li>
           <li>Scroll through the timeline to view reports from any day</li>
           <li>Dates highlighted with a darker color indicate avg. rating of smell reports</li>
@@ -133,7 +133,7 @@
     </div>
     <!-- header -->
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
-      <h1>Smell PGH</h1>
+      <h1>Air Watch: Bay Area</h1>
       <a href="#map-panel" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">Settings</a>
     </div>
     <!-- main -->
@@ -172,7 +172,7 @@
     <div role="main" class="ui-content">
       <div id="reportsCollapsible" data-role="collapsible">
         <h3>Contact Information</h3>
-        <label class="settings-description">While these fields are optional, signing your name in reports to the health department can improve authenticity and effectiveness.</label>
+        <label class="settings-description"><!--While these fields are optional, signing your name in reports to the health department can improve authenticity and effectiveness.--></label>
         <div>
           <input type="text" name="textfield_name" id="textfield_name" placeholder="name (recommended)" data-clear-btn="true" />
           <input type="text" name="textfield_email" id="textfield_email" placeholder="email (recommended)" data-clear-btn="true" />
@@ -181,11 +181,11 @@
         </div>
       </div>
       <div id="notificationsCollapsible" data-role="collapsible">
-        <h3>Notifications</h3>
+        <h3>Notifications (coming soon)</h3>
         <label class="settings-description">Activate smell and air quality notifications that are important to you</label>
         <label for="checkbox_smell_notifications">Smell Report Alerts <label class="settings-description-smaller">(notifications about reports rated 3-5)</label></label>
         <input type="checkbox" id="checkbox_smell_notifications" />
-        <label for="checkbox_pghaqi_notifications">Pittsburgh Air Quality Index Alerts <label class="settings-description-smaller">(notifications about air quality conditions)</label></label>
+        <label for="checkbox_pghaqi_notifications">Bay Area Air Quality Index Alerts <label class="settings-description-smaller">(notifications about air quality conditions)</label></label>
         <input type="checkbox" id="checkbox_pghaqi_notifications" />
       </div>
     </div>
@@ -204,14 +204,14 @@
   <div data-role="page" id="startup">
     <!-- header -->
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
-      <h1>Smell PGH</h1>
+      <h1>Air Watch: Bay Area</h1>
     </div>
     <!-- main -->
     <div role="main" class="ui-content">
-      <h3>Welcome to Smell PGH!</h3>
-      <p>Thank you for installing the Smell PGH App!</p>
-      <p>This app is designed to track pollution odors across the Pittsburgh region. If you detect a foul odor while you're outside, please report it through this app.</p>
-      <p style="font-weight:bold;">Smell PGH will automatically submit these reports to the Allegheny County Health Department (ACHD) so they can take action.</p>
+      <h3>Welcome to Air Watch: Bay Area!</h3>
+      <p>Thank you for installing the Air Watch: Bay Area App!</p>
+      <p>This app is designed to track pollution odors across the bay area. If you detect a foul odor while you're outside, please report it through this app.</p>
+      <p style="font-weight:bold;"><!--Smell PGH will automatically submit these reports to the Allegheny County Health Department (ACHD) so they can take action.--></p>
     </div>
     <!-- footer -->
     <div data-role="footer" data-position="fixed" data-id="startup_1" data-tap-toggle="false">
@@ -240,21 +240,16 @@
     </div>
     <!-- main -->
     <div role="main" class="ui-content">
-      <h3>About Smell PGH</h3>
-      <p>Pittsburgh was named one of the top 15 most livable cities in the US, but our air quality is often worse than other cities on that list. Foul odors outside are typically symptoms of a serious pollution problem in our region. We, our children, our friends and families all breathe in this air. If our air smells toxic, then we are likely inhaling toxins.</p>
-      <p>Smell PGH was designed to crowdsource smell reports so we can track how pollutants travel through our air across Pittsburgh. All odor complaints submitted through the app go directly to the health department (ACHD) so they can better monitor and act on these complaints.</p>
+      <h3>About Air Watch: Bay Area</h3>
+      <p>The Bay Area is the site of numerous oil refineries and chemical processing plants, which generate hundreds of tons of air pollution every year. Foul odors outside are typically symptoms of a serious pollution problem in our region. We, our children, our friends and families all breathe in this air. If our air smells toxic, then we are likely inhaling toxins.</p>
+      <p>Air Watch was designed to crowdsource smell reports so we can track how pollutants travel through our air across the Bay Area. <!--All odor complaints submitted through the app go directly to the health department (ACHD) so they can better monitor and act on these complaints.--></p>
       <center class="smell-submit-share">-- Smell -- Submit -- Share --</center>
-      <p>Smell PGH was developed by the CMU CREATE Lab with support from the Heinz Endowments, and in collaboration with:</p>
+      <p>Air Watch: Bay Area is a regional counterpart to the app Smell PGH, developed by the CMU CREATE Lab. It was developed by the Fair Tech Collective in collaboration with:</p>
       <ul>
-        <li>ACCAN</li>
-        <li>PennEnvironment</li>
-        <li>GASP</li>
-        <li>Sierra Club</li>
-        <li>ROCIS</li>
-        <li>Blue Lens, LLC</li>
-        <li>PennFuture</li>
-        <li>Clean Water Action</li>
-        <li>Clean Air Council</li>
+        <li>CRUDE</li>
+        <li>Community Science Institute</li>
+        <li>LACEEN</li>
+        <li>and additional concerned residents</li>
       </ul>
       <div id="about-version-number">
         version: ###

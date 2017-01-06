@@ -5,7 +5,7 @@ var LocalStorage = {
     storage_app_version: "1.1",
     // boolean values
     receive_smell_notifications: true,
-    receive_pghaqi_notifications: true,
+    receive_pghaqi_notifications: false,
     firsttime_startup: true,
     firsttime_home: true,
     firsttime_map: true,
@@ -46,12 +46,12 @@ var LocalStorage = {
   // generate a hash for the user
   generateUserHash: function() {
     var userHash;
-
+    var bayAreaPrefix = "BA"
     var random = Math.floor(Math.random()*9007199254740991);
     var date = new Date();
     var epoch = ((date.getTime()-date.getMilliseconds())/1000);
-    var input = "" + random + " " + epoch;
-    userHash = md5(input);
+    var input = random + " " + epoch;
+    userHash = bayAreaPrefix + md5(input);
 
     return userHash;
   },

@@ -4,7 +4,7 @@ var Constants = {
   PLATFORM_CALLBACK_ONREADY: false,
   SUBMIT_TO_ACHD: true,
   APP_VERSION: "1.7.3",
-  URL_SMELLPGH: "http://localhost",
+  URL_SMELLPGH: "http://bayarea.staging.api.smellpittsburgh.org",
 
   // Page Ids
   STARTUP_PAGE: "startup",
