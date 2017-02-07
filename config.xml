@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.cmucreatelab.smell_pgh.bay_area" version="1.7.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.cmucreatelab.smell_pgh.bay_area" version="1.7.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>AirWatch</name>
     <icon density="mdpi" height="57" src="www/img/smellpgh.png" width="57" />
     <description>
@@ -19,7 +19,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://localhost/visualization" />
+    <allow-navigation href="http://bayarea.staging.api.smellpittsburgh.org/visualization" />
     <platform name="android">
         <allow-intent href="market:*" />
         <splash src="www/img/smellpgh.png" />
@@ -37,6 +37,7 @@
     <plugin name="cordova-plugin-spinner" spec="~1.1.0" />
     <plugin name="cordova-plugin-dialogs" spec="~1.2.1" />
     <plugin name="cordova-plugin-device" spec="~1.1.2" />
+    <plugin name="cordova-plugin-fcm" version="2.1.1" />
     <plugin name="cordova-plugin-geolocation" spec="~2.2.0" />
     <plugin name="cordova-plugin-request-location-accuracy" spec="~2.0.0" />
     <plugin name="cordova.plugins.diagnostic" spec="~3.1.1" />

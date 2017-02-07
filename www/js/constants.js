@@ -4,7 +4,7 @@ var Constants = {
   PLATFORM_CALLBACK_ONREADY: true,
   SUBMIT_TO_ACHD: true,
   APP_VERSION: "1.7.3",
-  URL_SMELLPGH: "http://bayarea.staging.api.smellpittsburgh.org",
+  URL_SMELLPGH: "http://api.smellpittsburgh.org",
 
   // Page Ids
   STARTUP_PAGE: "startup",
@@ -27,7 +27,7 @@ var Constants = {
   // Topic strings
   GLOBAL_TOPIC: "GlobalTopic",
   PITTSBURGH_AQI_TOPIC: "pghaqi",
-  SMELL_REPORT_TOPIC: "SmellReports",
+  SMELL_REPORT_TOPIC: "BASmellReports",
 
   // Location services enums
   AuthorizationEnum: {

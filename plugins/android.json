@@ -39,6 +39,9 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "org.cmucreatelab.smell_pgh"
+        },
+        "cordova-plugin-fcm": {
+            "PACKAGE_NAME": "org.cmucreatelab.smell_pgh.bay_area"
         }
     },
     "dependent_plugins": {
