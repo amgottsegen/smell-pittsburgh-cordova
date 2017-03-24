@@ -19,7 +19,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://bayarea.staging.api.smellpittsburgh.org/visualization" />
+    <allow-navigation href="http://api.smellpittsburgh.org/visualization" />
     <platform name="android">
         <allow-intent href="market:*" />
         <splash src="www/img/smellpgh.png" />
